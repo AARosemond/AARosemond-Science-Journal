@@ -74,7 +74,7 @@
                         </h2>
                         <span class="meta">Posted by
                             <a href="#">AARosemond</a>
-                            on May 3, 2020</span>
+                            on May 10, 2020</span>
                     </div>
                 </div>
             </div>
@@ -86,79 +86,88 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <h2 class="section-heading">Impressions: Seattle Public Library - Mobile Edition</h2>
+                    <h2 class="section-heading">Impressions: Seattle Opera</h2>
 
-                    <p> I'm posting on my second usability testing of <a href="https://www.spl.org/">The Seattle Public
-                            Library Website</a>. This iteration of testing is focused on the website as experienced on a
-                        mobile device. The website is designed to be a gallery of services, resources, news and
-                        happenings at library, one of the Emerald City's great commons. I repeated my test on this site,
-                        using the concepts and learnings from the methods outlined in "Don’t Make Me Think!" by
-                        Steve Krug.
+                    <p> This is my first attempt at accessibility testing of <a href="https://www.seattleopera.org/">The
+                            Seattle Opera
+                            Website</a>. The website is designed to be a gallery of services,
+                        resources, news and events at the Seattle Opera, another of the Emerald City's great commons.
+                        With this
+                        in mind, I conducted this accessibility audit with the guidance of <a
+                            href="https://www.w3.org/WAI/fundamentals/components/">The Essential Components of Web
+                            Accessibility (a product of the W3C Web Accessibility Initiative)</a>. I also benefitted
+                        with the use of free online developer tools, including the <a
+                            href="https://developers.google.com/web/tools/lighthouse/#devtools">Google Lighthouse
+                            Accessibility Audit</a>tool, and the <a
+                            href="https://www.w3.org/WAI/fundamentals/components/">The Essential Components of Web
+                            Accessibility (a product of the W3C Web Accessibility Initiative)</a>. I also benefitted
+                        with the use of free online developer tools, including the <a
+                            href="https://wave.webaim.org/">"WAVE" Web Accessibility Evaluation Tool</a>.
 
                     </p>
 
-                    <h2 class="section-heading">The testing</h2>
+                    <h2 class="section-heading">The Seattle Opera Website - Accessibility Audit</h2>
                     <a href="#">
-                        <img class="img-fluid" src="img/post4SPLhomepage_iOS11.png" alt="">
+                        <img class="img-fluid" src="img/Post5SeattleOperaLighthouse1stpage.jpg" alt="">
                     </a>
-                    <span class="caption text-muted">The Seattle Public Library homepage, as encountered on Apple iPhone
-                        6-8, iOS11.</span>
+                    <span class="caption text-muted">Seattle Opera Website Overall Accessibility Score of 69, according
+                        to Lighthouse.</span>
 
-                    <p>The test script was reapplied:<a href="img/SeattlePublicLibraryusabilitytestscript.pdf"
-                            download="SeattlePublicLibraryusabilitytestscript.pdf">Download test script</a>
-                        </iframe><span class="caption text-muted">Rough script for SPL.org Usability Test (desktop &
-                            mobile).</span></p>
+                    <p>I first downloaded the Google Lighthouse Accessibility Audit:<a
+                            href="img/post5SeattleOpera_Lighthouse Report_accessibility5May20.pdf"
+                            download="post5SeattleOpera_Lighthouse Report_accessibility5May20.pdf">Download Lighthouse
+                            Audit of Seattle Opera</a>
+                        </iframe><span class="caption text-muted">Seattle Opera Website Google Lighthouse Accessibility
+                            Audit</span></p>
 
-                    <p>Test conducted:</p>
-                    <li>Four test users agreed to participate. The test users were unfamiliar with the site prior to
-                        testing its mobile version. Each granted permission for recording:
+                    <p>Google Lighthouse Accessibility Audit findings:</p>
+                    <li>Scrolling through the findings, both failing and passing findings, including:
                         <ol>
-                            <li>A female student, aged 12 years, Spends most days doing homework and watching TV.
-                                Spends 10 hours a week online, on average. er favorite experiences on the web include
-                                browsing educational websites including <a
-                                    href="https://www.schoology.com/">Schoology.com</a>,
-                                <a href="https://amplify.com/">Amplify.com</a>, and for fun, <a
-                                    href="https://www.boredbutton.com/">Bored Button.com</a>, <a
-                                    href="https://www.coolmathgames.com/">coolmathgames.com</a>, <a
-                                    href="https://www.netflix.com/">Netflix.com</a>, and <a
-                                    href="https://www.disneyplus.com/">Disney+</a>.</li>
-                            <li>A female student, aged 14 years. Fan of games like<a
-                                    href="https://animal-crossing.com/">Animal Crossing</a>and of hunting for meme.</li>
-                            <li>A female musical and stage artist/educator. She spends up to 28 hours per week online,
-                                mostly in supply procurement on Google, Amazon or social media websites.</li>
-                        </ol>
-                    </li>
-                    <li>Reaction to the Seattle Public Library homepage:
-                        <ol>
-                            <li>Each was able to immediately identify the site and to describe the resources she was
-                                expecting to find available.</li>
+                            <li>Background and foreground colors do not have a sufficient contrast ratio. Low-contrast
+                                text is difficult or impossible for many users to read.</li>
+                            <li>Html elements does not have a [lang] attribute. If a page doesn't specify a lang
+                                attribute, a screen reader assumes that the page is in the default language that the
+                                user chose when setting up the screen reader. If the page isn't actually in the default
+                                language, then the screen reader might not announce the page's text correctly.</li>
+                            <li>Image elements do not have [alt] attributes. Informative elements should aim for short,
+                                descriptive alternate text. Decorative elements can be ignored with an empty alt
+                                attribute.</li>
                             <a href="#">
-                                <img class="img-fluid" src="img/post4SPLhomepage_hamburgered_iOS11.png" alt="">
-                            </a>
-                            <span class="caption text-muted">The homepage view with hamburger active.</span>
-                            <li>Each was able to view the choices and resources, using the prominent directional
-                                "hamburger" button on the upper right of the display.</li>
+                                <img class="img-fluid"
+                                    src="img/post5SeattleOpera_image no description Lighthouse Report_accessibility5May20.jpg"
+                                    alt=""></a>
+                            <span class="caption text-muted">Seattle Opera Website riddled with images without
+                                descriptive alternate text.</span>
                         </ol>
                     </li>
-                    <li>Reactions to tasking:
+
+                    <p>"WAVE" Web Accessibility Evaluation Audit:</p>
+                    <a href="#">
+                        <img class="img-fluid" src="img/post5WAVE Report of Seattle Opera Seattle Opera Home.png"
+                            alt="">
+                    </a>
+                    <span class="caption text-muted">Seattle Opera Website Overall Accessibility Audit - WAVE.</span>
+
+                    <li>"WAVE" Audit findings included:
                         <ol>
-                            <li>Each participant attempted to find the Harry Potter books, per the tasking. None
-                                succeeded. In contrast with the initial desktop test user group, this group didn't seem
-                                to find saliency in the tasking. This may indicate an opportunity to improve the test,
-                                more than to improve the website.</li>
-                            <li>Each participant was asked to try and locate physical room reservations procedures or
-                                library room resources - without using the prominent "search" field. All but one, the 14
-                                year old, failed to complete the task. The 14 year old, having completed the task,
-                                remarked that it wasn't the most intuitive experience...and did not specify any recommendations as to how it could be improved.
+                            <li>At least 13 instances of missing alternative text. </li>
+                            <li>No declaration of language (leaving it to a default...problematic for autoreaders).
+                            </li>
+                            <li>Low contrast between text and background images</li>
+                            <li>Too much similarity between text and links</li>
                         </ol>
                     </li>
+                    <p>I have to note, the WAVE tool was my favorite to use, particularly because it allowed me to see
+                        the site and use the icons to identify opportunity, while choosing between a code viewer or the
+                        web user interface</p>
+
                     <h2 class="section-heading">Observations and Recommendations</h2>
 
-                    <p>I think my administration of the test needs to be improved and better modified for a new group of
-                        test users. I can't be sure how much personal agency each test user had, or how much attention
-                        was given or witheld as a result. Failure to achieve more in the tasking seems less related with
-                        malfunction or poor design of the website. I would attribute the surprisingly lacklustre results
-                        to poor test design and application. A difficult but imporant lesson learned.</p>
+                    <p>The ease of use and efficiency of these tools allow for regular audit and improvement. After
+                        declaring a language and finding a color scheme that allows for more contrast between text and
+                        background color, I would recommend entering alt text and image descriptions for all images
+                        displayed. There were additional tests that I'd recommend running, including the focus test to
+                        better accomodate users who depend solely on the keyboard for navigating around the website.</p>
 
                 </div>
             </div>
