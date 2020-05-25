@@ -3,14 +3,17 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167473031-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167473031-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-167473031-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-167473031-1');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -80,7 +83,7 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-heading">
-                        
+
                         <h1>Blogging About Design</h1>
                         <h2 class="subheading">Excited to share my thoughts and findings
                         </h2>
@@ -100,76 +103,77 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <h2 class="section-heading">Adding Analytics: AARosemond's Blog</h2>
 
-                    <p> I'm posting on my second usability testing of <a href="https://www.spl.org/">The Seattle Public
-                            Library Website</a>. This iteration of testing is focused on the website as experienced on a
-                        mobile device. The website is designed to be a gallery of services, resources, news and
-                        happenings at library, one of the Emerald City's great commons. I repeated my test on this site,
-                        using the concepts and learnings from the methods outlined in "Don’t Make Me Think!" by
-                        Steve Krug.
+                    <p>This is the first post on my exploration and experimentation with analytics, using AARosemond’s
+                        Science Journal. I don’t have much in the way of data yet (a function of the few who’ve visited
+                        the site and how little time I’ve had analytics attached) but I do have a sound foundation for
+                        future posts. So this post will be focused on pre-evaluation, initial steps and early
+                        observations.
                     </p>
 
-                    <h2 class="section-heading">The testing</h2>
+                    <h2 class="section-heading">Pre-evaluation</h2>
                     <a href="#">
-                        <img class="img-fluid" src="img/post4SPLhomepage_iOS11.png" alt="">
+                        <img class="img-fluid" src="img/post7User Science Journal.png" alt="Image of index page of AARosemond Science Journal">
                     </a>
-                    <span class="caption text-muted">The Seattle Public Library homepage, as encountered on Apple iPhone
-                        6-8, iOS11.</span>
+                    <span class="caption text-muted">AARosemond's Science Journal index/landing page.</span>
 
-                    <p>The test script was reapplied:<a href="img/SeattlePublicLibraryusabilitytestscript.pdf"
-                            download="SeattlePublicLibraryusabilitytestscript.pdf">Download test script</a>
-                        </iframe><span class="caption text-muted">Rough script for SPL.org Usability Test (desktop &
-                            mobile).</span></p>
+                    <p>AARosemond’s Science Journal is a site designed to explore and experiment with web development.
+                        It will record my reaction to design, accessibility, analytics and related subjects, as well as
+                        display my hopefully increasing skill at generating and disseminating compelling content. As
+                        such, I expect analytics to help test my assumptions about the site, including:</p>
+                    <ol>
+                        <li>Most visitors to the site will come as a result of links I attach to Github, emails,
+                            resumes and my LinkedIn profile, to demonstrate my increasing skill in web development. I am
+                            not counting on other websites to significantly refer others to the site.</li>
+                        <li>I imagine my most popular pages will be blog posts where I analyze other sites. For
+                            example, post 1 is an overall design analysis of Seattle University’s Albers School of
+                            Business and Economics page. It is likely to gain some traffic for its look at a moderately
+                            popular web destination</li>
+                        <li>3. Generally, the flow and behavior I expect to see from the sites visitors would be to land
+                            first on the index.html page (the most likely page I would refer visitors to) with follow on
+                            visits to the top most post in the dropdown (currently post1). There is no call to action,
+                            other than to visit posts, so I expect visitors to stay for a short while until curiosity is
+                            satisfied.</li>
+                    </ol>
+                    <p>AARosemond’s Science Journal was designed to display more than the just a blog. Since many of
+                        those features are little more than aspirational at this point, I am sure there is much more
+                        complexity ahead as the site develops.</p>
 
-                    <p>Test conducted:</p>
-                    <li>Four test users agreed to participate. The test users were unfamiliar with the site prior to
-                        testing its mobile version. Each granted permission for recording:
-                        <ol>
-                            <li>A female student, aged 12 years, Spends most days doing homework and watching TV.
-                                Spends 10 hours a week online, on average. er favorite experiences on the web include
-                                browsing educational websites including <a
-                                    href="https://www.schoology.com/">Schoology.com</a>,
-                                <a href="https://amplify.com/">Amplify.com</a>, and for fun, <a
-                                    href="https://www.boredbutton.com/">Bored Button.com</a>, <a
-                                    href="https://www.coolmathgames.com/">coolmathgames.com</a>, <a
-                                    href="https://www.netflix.com/">Netflix.com</a>, and <a
-                                    href="https://www.disneyplus.com/">Disney+</a>.</li>
-                            <li>A female student, aged 14 years. Fan of games like <a
-                                    href="https://animal-crossing.com/">Animal Crossing</a> and of hunting for meme.</li>
-                            <li>A female musical and stage artist/educator. She spends up to 28 hours per week online,
-                                mostly in supply procurement on Google, Amazon or social media websites.</li>
-                        </ol>
-                    </li>
-                    <li>Reaction to the Seattle Public Library homepage:
-                        <ol>
-                            <li>Each was able to immediately identify the site and to describe the resources she was
-                                expecting to find available.</li>
-                            <a href="#">
-                                <img class="img-fluid" src="img/post4SPLhomepage_hamburgered_iOS11.png" alt="">
-                            </a>
-                            <span class="caption text-muted">The homepage view with hamburger active.</span>
-                            <li>Each was able to view the choices and resources, using the prominent directional
-                                "hamburger" button on the upper right of the display.</li>
-                        </ol>
-                    </li>
-                    <li>Reactions to tasking:
-                        <ol>
-                            <li>Each participant attempted to find the Harry Potter books, per the tasking. None
-                                succeeded. In contrast with the initial desktop test user group, this group didn't seem
-                                to find saliency in the tasking. This may indicate an opportunity to improve the test,
-                                more than to improve the website.</li>
-                            <li>Each participant was asked to try and locate physical room reservations procedures or
-                                library room resources - without using the prominent "search" field. All but one, the 14
-                                year old, failed to complete the task. The 14 year old, having completed the task,
-                                remarked that it wasn't the most intuitive experience...and did not specify any recommendations as to how it could be improved.
-                        </ol>
-                    </li>
-                    <h2 class="section-heading">Observations and Recommendations</h2>
+                    <h2 class="section-heading">Adding Analytics</h2>
 
-                    <p>I think my administration of the test needs to be improved and better modified for a new group of
-                        test users. I can't be sure how much personal agency each test user had, or how much attention
-                        was given or witheld as a result. Failure to achieve more in the tasking seems less related with
-                        malfunction or poor design of the website. I would attribute the surprisingly lacklustre results
-                        to poor test design and application. A difficult but imporant lesson learned.</p>
+                    <p>Adding Google Analytics was relatively straightforward. I created an google email address for
+                        correspondence and used its protocols to get a global site tag from Google Analytics. I hand
+                        coded the site tag script into every blog page. It took more than 24hrs to get any movement
+                        recorded, leaving me with the lesson learned: start early, for best results. As I write this
+                        post, I realize that I should have included the script to the about page (and probably should
+                        update the page, while I am at it).</p>
+
+                    <h2 class="section-heading">Preliminary Findings</h2>
+
+                    <p>To get traffic going to the site, I sent a few text and email messages to contacts, explaining
+                        the initiative and asking for them to visit. In this, my pre-evaluation statement bears out.
+                    </p>
+                    <a href="#">
+                        <img class="img-fluid" src="img/post7AnalyticsVisitorsGraph23May20.png" alt="Image of AARosemond Science Journal Overall Visitors">
+                    </a>
+                    <span class="caption text-muted">AARosemond's Science Journal Visitors Over 24 Hours.</span>
+
+                    <p>It feels like my contacts did exactly as I asked. The average time on each page was 15 seconds,
+                        with the most page views on the index page (as I guessed on my pre-eval page) and descending as
+                        post numbers increase. This last observation bears further review: Six posts exist, and I
+                        currently have them listed on the blog drop down in ascending order. It is likely that each
+                        visitor landed on the index page via the link I sent out and visited the posts in order. One
+                        course of action could be to reverse the order of posting, so that the most current is the first
+                        one visited, with hopes this will increase the page views overall.
+                    </p>
+                    <a href="#">
+                        <img class="img-fluid" src="img/post7AnalyticsUniquePageViewsGraph23May20.png" alt="Image of AARosemond Science Journal Unique Page Views">
+                    </a>
+                    <span class="caption text-muted">AARosemond's Science Journal Unique Page Views over 24 Hours.</span>
+                    <p>15% of users returned to the site after the initial visit. If that were more than 1 user, I could
+                        say there was hope for repeat viewership. Again, I’ll be on the looking out for trends.</p>
+                    <a href="#"><img class="img-fluid" src="img/post7AnalyticsNewvReturningUserGraph23May20.png" alt="Image of AARosemond Science Journal Pie Graph of New v Returning users">
+                        </a>
+                        <span class="caption text-muted">AARosemond's Science Journal 15% returning visitor rate.</span>
 
                 </div>
             </div>
