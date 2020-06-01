@@ -3,14 +3,17 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167473031-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167473031-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-167473031-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-167473031-1');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -81,12 +84,13 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-heading">
-                        
+
                         <h1>Blogging About Design</h1>
-                        <h2 class="subheading">Excited to share my thoughts and findings</h2>
+                        <h2 class="subheading">Excited to share my thoughts and findings
+                        </h2>
                         <span class="meta">Posted by
                             <a href="#">AARosemond</a>
-                            on May 10, 2020</span>
+                            on May 31, 2020</span>
                     </div>
                 </div>
             </div>
@@ -98,82 +102,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <h2 class="section-heading">Impressions: Seattle Opera</h2>
+                    <h2 class="section-heading">Analytics: Goals for the Journal</h2>
 
-                    <p> This is my first attempt at accessibility testing of <a href="https://www.seattleopera.org/">The
-                            Seattle Opera Website</a>. The website is designed to be a gallery of services,
-                        resources, news and events at the Seattle Opera, another of the Emerald City's great commons.
-                        With this in mind, I conducted this accessibility audit with the guidance of <a
-                            href="https://www.w3.org/WAI/fundamentals/components/">The Essential Components of Web
-                            Accessibility (a product of the W3C Web Accessibility Initiative)</a>. I also benefitted
-                        from the use of free online developer tools, including the <a
-                            href="https://developers.google.com/web/tools/lighthouse/#devtools">Google Lighthouse
-                            Accessibility Audit</a> tool, and the <a href="https://wave.webaim.org/">"WAVE" Web
-                            Accessibility Evaluation Tool</a>.
+                    <p>This post catalogs my continuing exploration and experimentation with analytics, using
+                        AARosemond’s
+                        Science Journal. Now that I've set up Google analytics, I'm able to gather a few insights from
+                        the user visits. This post will focus on setting up analytics towards achieving goals.
                     </p>
 
-                    <h2 class="section-heading">The Seattle Opera Website - Accessibility Audit</h2>
+                    <h2 class="section-heading">Goals and Events</h2>
                     <a href="#">
-                        <img class="img-fluid" src="img/Post5SeattleOperaLighthouse1stpage.jpg" alt="image of Lighthouse report 1st page">
+                        <img class="img-fluid" src="img/post8GoogleAnalyticsGoalsSetUpPage31May20.jpg"
+                            alt="Image of Google Analytics Goal Set-up Page">
                     </a>
-                    <span class="caption text-muted">Seattle Opera Website Overall Accessibility Score of 69, according
-                        to Lighthouse.</span>
+                    <span class="caption text-muted">The First Step in Setting Goals.</span>
 
-                    <p>I first downloaded the Google Lighthouse Accessibility Audit:<a
-                            href="img/post5SeattleOpera_Lighthouse Report_accessibility5May20.pdf"
-                            download="post5SeattleOpera_Lighthouse Report_accessibility5May20.pdf" alt="image of Lighthouse report">Download Lighthouse
-                            Audit of Seattle Opera</a>
-                        </iframe><span class="caption text-muted">Seattle Opera Website Google Lighthouse Accessibility
-                            Audit</span></p>
+                    <p>AARosemond’s Science Journal is a site designed to explore and experiment with web development.
+                        I'm using the journal to record my reaction to design, accessibility, analytics and related
+                        subjects, as well as
+                        display my hopefully increasing skill at generating and disseminating compelling content. So it
+                        is naturally a test platform for learning and trying out the power of analytics. I figured I
+                        could start this process by looking at how much time users are viewing each page and setting up
+                        goals to help increase it.</p>
 
-                    <p>Google Lighthouse Accessibility Audit findings:</p>
-                    <li>An extensive list, summarized here:
-                        <ul>
-                            <li>Background and foreground colors do not have a sufficient contrast ratio. Low-contrast
-                                text is difficult or impossible for many users to read.</li>
-                            <li>Html elements does not have a [lang] attribute. If a page doesn't specify a lang
-                                attribute, a screen reader assumes that the page is in the default language that the
-                                user chose when setting up the screen reader. If the page isn't actually in the default
-                                language, then the screen reader might not announce the page's text correctly.</li>
-                            <li>Image elements do not have [alt] attributes. Informative elements should aim for short,
-                                descriptive alternate text. Decorative elements can be ignored with an empty alt
-                                attribute.</li>
-                            <a href="#">
-                                <img class="img-fluid"
-                                    src="img/post5SeattleOpera_image no description Lighthouse Report_accessibility5May20.jpg"
-                                    alt="image of Seattle Opera Website code with no image description"></a>
-                            <span class="caption text-muted">Seattle Opera Website riddled with images without
-                                descriptive alternate text.</span>
-                        </ol>
-                    </li>
-
-                    <p>"WAVE" Web Accessibility Evaluation Audit:</p>
                     <a href="#">
-                        <img class="img-fluid" src="img/post5WAVE Report of Seattle Opera Seattle Opera Home.png"
-                            alt="Wave report of Seattle Opera Homepage">
-                    </a>
-                    <span class="caption text-muted">Seattle Opera Website Overall Accessibility Audit - WAVE.</span>
-
-                    <li>"WAVE" Audit findings included:
-                        <ol>
-                            <li>At least 13 instances of missing alternative text. </li>
-                            <li>No declaration of language (leaving it to a default...problematic for autoreaders).
-                            </li>
-                            <li>Low contrast between text and background images</li>
-                            <li>Too much similarity between text and links</li>
-                        </ol>
-                    </li>
-                    <p>I have to note, the WAVE tool was my favorite to use, particularly because it allowed me to see
-                        the site and use the icons to identify opportunity, while choosing between a code viewer or the
-                        web user interface</p>
-
-                    <h2 class="section-heading">Observations and Recommendations</h2>
-
-                    <p>The ease of use and efficiency of these tools allow for regular audit and improvement. After
-                        declaring a language and finding a color scheme that allows for more contrast between text and
-                        background color, I would recommend entering alt text and image descriptions for all images
-                        displayed. There were additional tests that I'd recommend running, including the focus test to
-                        better accomodate users who depend solely on the keyboard for navigating around the website.</p>
+                        <img class="img-fluid" src="img/post8JournalAnalytics_Week ending31May20.png"
+                            alt="Image of Google Analytics' Summary page for the week ending on May 31st">
+                    </a><span class="caption text-muted">First look at analytics for the journal.</span>
+                    <ol>
+                        <li>A quick look at the analytics report signalled that users were spending an average of 42
+                            seconds on each page. I'm not sure if that's how long it takes to read a blog post or
+                            perhaps that's the average attention span for my content.</li>
+                        <li>Just to try things out, I set my first goal to record instances of page views over 40 seconds.</li>
+                        <li>It doesn't look like I had to set up a funnel for the event, but my goal is labeled "Engaged User".  My hope is to analyze what content is keeping users viewing over 40 seconds and maybe optimize for that content, before making a goal to increase average time on the site.</li>
+                    </ol>
+                    <p>This puts us in a wait and see pattern until next post.</p>
 
                 </div>
             </div>
@@ -189,21 +152,24 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a href="#">twitter<span class="fa-stack fa-lg">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">facebook<span class="fa-stack fa-lg">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">github<span class="fa-stack fa-lg">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
